@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+ </head>
+
+
+ <body>
+
+    <table border="1px;" cellPadding="10" cellspacing="5">
+        <col width=270>
+        <!-- <col width=200>  -->
+        <form action="page2.html" method="GET">
+            <tr>
+                <td >
+                    <label for="fname" >First Name</label>
+                </td>
+                <td><input type="text" id="fname" name="fname" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="title">Job title</label>
+                </td>
+                <td><input type="text" id="title" name="title" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">e-mail</label>
+                </td>
+                <td><input type="text" id="email" name="email" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td><input type="text" id="address" name="address" required/>
+                </td>
+            </tr>
+
+           
+            <tr>
+                <td rowspan="2" >Gender </td>
+                <td>
+                    <input type="radio" name="gender" value="m">
+                    <label for="Gender">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                      <input type="radio" name="gender"  value="f">
+                      <label for="Gender">Female</label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" name="submit" value="Sumbit"></td>
+            </tr>
+        </form>
+    </table>
+    <script src="main.js"></script>
+ </body>
+
+
+</html>
