@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <script>
+        document.onkeydown = function (e) {
+        let key = e.key;
+        let ascii = e.key.charCodeAt(0);
+        //ascii = e.which;
+            if(e.altKey)
+                    alert(`ALT Key is pressed.`);
+            else if (e.ctrlKey)
+                    alert(`CTRL Key is pressed.`);
+            else if (e.shiftKey)
+                    alert(`SHIFT Key is pressed.`); 
+            else
+                alert(`The ascii of '${key}' is: ${ascii}`)
+        };
+    </script>
+</head>
+<body>
+
+    <h1 style="text-align: center">Press on Any Key to display its ASCII</h1> 
+</body>
+</html>

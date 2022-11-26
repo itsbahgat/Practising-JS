@@ -1,0 +1,11 @@
+#container{
+    width: 320px;
+    height: 320px;
+    border: 1px solid red;
+}
+
+img{
+    position: absolute;
+    top:  160px;
+    left: 160px;
+}
